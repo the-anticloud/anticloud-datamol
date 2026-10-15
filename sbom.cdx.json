@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e6d768e6-f6b0-5efb-8764-62247d51b65f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:24:44Z",
+    "component": {
+      "type": "application",
+      "name": "DATAMOL",
+      "version": "ea501d4bbe12",
+      "bom-ref": "pkg:generic/anticloud/DATAMOL@ea501d4bbe12",
+      "purl": "pkg:generic/anticloud/DATAMOL@ea501d4bbe12",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ea501d4bbe12909325eaceb881abfbc316440c9a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/datamol-io/datamol"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": ">=4.66",
+      "purl": "pkg:pypi/tqdm@4.66",
+      "bom-ref": "pypi/tqdm@>=4.66"
+    },
+    {
+      "type": "library",
+      "name": "loguru",
+      "version": ">=0.7",
+      "purl": "pkg:pypi/loguru@0.7",
+      "bom-ref": "pypi/loguru@>=0.7"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": ">=1.3",
+      "purl": "pkg:pypi/joblib@1.3",
+      "bom-ref": "pypi/joblib@>=1.3"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nodefaults",
+      "version": "unspecified",
+      "purl": "pkg:generic/nodefaults",
+      "bom-ref": "conda/nodefaults@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "unspecified",
+      "purl": "pkg:generic/python",
+      "bom-ref": "conda/python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rdkit",
+      "version": "unspecified",
+      "purl": "pkg:generic/rdkit",
+      "bom-ref": "conda/rdkit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "-e",
+      "version": "unspecified",
+      "purl": "pkg:generic/-e",
+      "bom-ref": "conda/-e@unspecified"
+    }
+  ]
+}
